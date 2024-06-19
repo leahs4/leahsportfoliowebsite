@@ -1,0 +1,33 @@
+/* Header.css */
+.header {
+    background-color: #e1f6fa;
+    padding: 10px;
+    /*border-bottom: 1px solid #ccc;*/
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 5;
+    display: flex;
+    justify-content: center; /* Align buttons to the right */
+}
+
+.nav-list li {
+    margin-left: 10px;
+}
+
+.nav-button {
+    background-color: #588fb6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 17px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 50px;
+}
+
+.nav-button:hover {
+    background-color: #4e81a5;
+}
