@@ -1,23 +1,22 @@
-/* Header.css */
-.header {
+.header{
     background-color: #e1f6fa;
-    padding: 10px;
-    /*border-bottom: 1px solid #ccc;*/
+    padding: 30px;
+    
 }
 
-.nav-list {
+.nav-list{
     list-style-type: none;
     padding: 0;
     margin: 5;
     display: flex;
-    justify-content: center; /* Align buttons to the right */
+    justify-content: center; 
 }
 
-.nav-list li {
+.nav-list li{
     margin-left: 10px;
 }
 
-.nav-button {
+.nav-button{
     background-color: #588fb6;
     color: white;
     border: none;
@@ -28,6 +27,6 @@
     border-radius: 50px;
 }
 
-.nav-button:hover {
+.nav-button:hover{
     background-color: #4e81a5;
 }

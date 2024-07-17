@@ -1,21 +1,20 @@
-// Header.jsx
-
 import React from 'react';
-import './HeaderButtons.css'; // Import your CSS file for styling (if using external CSS)
+import {Link} from 'react-router-dom';
+import './HeaderButtons.css'; // Import your CSS file for styling
 
-const Header = () => {
-    return (
-        <header className="header">
-            <nav>
-                <ul className="nav-list">
-                    <li><button className="nav-button">Home</button></li>
-                    <li><button className="nav-button">About Me</button></li>
-                    <li><button className="nav-button">Experience</button></li>
-                    <li><button className="nav-button">Contact</button></li>
-                </ul>
-            </nav>
-        </header>
-    );
-}
+const HeaderButtons=()=>{
+  return(
+    <header className="header">
+      <nav>
+        <ul className="nav-list">
+          <li><Link to="/home" className="nav-button">Home</Link></li>
+          <li><Link to="/about" className="nav-button">About Me</Link></li>
+          <li><Link to="/experience" className="nav-button">Experience</Link></li>
+          <li><Link to="/contact" className="nav-button">Contact</Link></li>
+        </ul>
+      </nav>
+    </header>
+  );
+};
 
-export default Header;
+export default HeaderButtons;

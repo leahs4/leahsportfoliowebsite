@@ -1,13 +1,25 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.App{
+  text-align: center;
+  min-height: 100vh; 
+}
+
+.App-logo{
   height: 40vmin;
   pointer-events: none;
 }
 
-.App-header {
+.App-header{
   background-color: #91c3e9;
   min-height: 100vh;
   display: flex;
@@ -18,10 +30,3 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-.App-side-image {
-  width: 150px; /* Adjust width as needed */
-  height: auto;
-  margin: 0 20px; /* Adjust margin to create space between images */
-}
-
-
