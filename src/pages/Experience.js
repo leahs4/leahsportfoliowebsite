@@ -1,10 +1,12 @@
 import React from 'react';
-
+import "./Experience.css"
 const Experience=()=>{
   return(
     <div>
-      <h1>Experience</h1>
-      {"wow i have experience"}
+      <header className="App-experience">
+        <h1>Experience</h1>
+        <p>This is my experience</p>
+      </header>
     </div>
   );
 }
