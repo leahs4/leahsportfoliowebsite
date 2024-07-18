@@ -1,11 +1,33 @@
 .App-contact{
     background-color: #91c3e9;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    height: 100vh;
     align-items: center;
-    justify-content: center;
+    
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: calc(10px + 2vmin);
     color: white;
+    padding: 0 10%;
+}
+
+.linkedin-icon{
+  color: #0077b5;
+  font-size: 4rem;
+  margin: 20px;
+}
+
+.gmail-icon{
+  color: #d44638;
+  font-size: 4rem;
+  margin: 20px;
+}
+
+.linkedin-icon:hover,
+.gmail-icon:hover{
+  color: #005983;
+  transition: color 0.3s ease;
+}
+
+.gmail-icon:hover{
+  color: #b23121;
+  transition: color 0.3s ease;
 }

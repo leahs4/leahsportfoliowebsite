@@ -21,6 +21,8 @@
     color: white;
     border: none;
     padding: 10px 20px;
+    text-decoration: none;
+    transition: .3s;
     cursor: pointer;
     font-size: 17px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
