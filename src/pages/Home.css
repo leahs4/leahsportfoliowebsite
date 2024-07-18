@@ -1,3 +1,7 @@
+.animate__animated.animate__bounceInDown{
+  --animate-duration: 3s;
+}
+
 *{
     margin: 0;
     padding: 0;
