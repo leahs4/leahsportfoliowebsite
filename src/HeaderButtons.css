@@ -22,13 +22,17 @@
     border: none;
     padding: 10px 20px;
     text-decoration: none;
-    transition: .3s;
     cursor: pointer;
     font-size: 17px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-radius: 50px;
+    cursor: pointer;
+    background-size: 200%;
+    transition: 0.4s ease-out;
+    background-image: linear-gradient(to right, #588fb6 50%, #335268 50%)
+}
+.nav-button:hover{
+    background-position: right;
 }
 
-.nav-button:hover{
-    background-color: #4e81a5;
-}
+
