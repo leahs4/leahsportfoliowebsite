@@ -1,7 +1,7 @@
 .App-about{
   background-color: #91c3e9;
-  min-height: 20vh;
   display: flex;
+  padding-top: 30px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
