@@ -9,6 +9,9 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.animate__animated.animate__bounceInLeft{
+  --animate-duration: 1.5s;
+}
 
 .about-page{
     display: flex;
@@ -34,6 +37,7 @@
   background-color: #588fb6;
   border-radius: 50px;
   color: white;
+  transform: translateY(-70px);
   margin-left: 7%;
 }
 
@@ -42,12 +46,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #91c3e9; /* Temporary background color for visibility */
+  background-color: #91c3e9;
+  transform: translateY(-70px);
 }
 
-.about-image {
+.about-image{
   max-width: 50%;
   height: auto;
-  border-radius: 60%;
+  border-radius: 20%;
 }
 
