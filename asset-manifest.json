@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/leahsportfoliowebsite/static/css/main.cbe4bd65.css",
+    "main.js": "/leahsportfoliowebsite/static/js/main.c558f583.js",
+    "static/media/hawaiisoftserve.jpg": "/leahsportfoliowebsite/static/media/hawaiisoftserve.26db21e2ce6d92393f03.jpg",
+    "static/media/logo.png": "/leahsportfoliowebsite/static/media/logo.58e9afd89fe4b81da427.png",
+    "index.html": "/leahsportfoliowebsite/index.html",
+    "main.cbe4bd65.css.map": "/leahsportfoliowebsite/static/css/main.cbe4bd65.css.map",
+    "main.c558f583.js.map": "/leahsportfoliowebsite/static/js/main.c558f583.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cbe4bd65.css",
+    "static/js/main.c558f583.js"
+  ]
+}
