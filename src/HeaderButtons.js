@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import './HeaderButtons.css'; // Import your CSS file for styling
+import './HeaderButtons.css';
 
 const HeaderButtons=()=>{
   return(
