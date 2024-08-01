@@ -34,4 +34,14 @@
     background-position: right;
 }
 
+@media screen and (max-width: 720px){
+    .header{ /* made color diff to distinguish diff width*/
+      background-color: olive;
+      color: #e1f6fa;
+      padding: 30px;
+    }
+    .nav-list{ /* got rid of the buttons*/
+        display: none;
+    }
+}
 
