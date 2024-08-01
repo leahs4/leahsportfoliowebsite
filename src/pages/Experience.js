@@ -38,7 +38,7 @@ const Experience=()=>{
         </div>
         <div className="resume">
           <h1 className="animate__animated animate__zoomIn">Resume</h1>
-          <a href="/LeahSunResume2024.pdf" target="_blank" rel="noopener noreferrer">
+          <a href="LeahSunResume2024.pdf" target="_blank" rel="noopener noreferrer">
             <i className='bx bxs-file-pdf animate__animated animate__zoomIn'></i>
           </a>
         </div>

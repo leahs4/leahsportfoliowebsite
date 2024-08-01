@@ -1,7 +1,6 @@
 .header{
     background-color: #e1f6fa;
     padding: 30px;
-    
 }
 
 .nav-list{
@@ -29,7 +28,7 @@
     cursor: pointer;
     background-size: 200%;
     transition: 0.4s ease-out;
-    background-image: linear-gradient(to right, #588fb6 50%, #335268 50%)
+    background-image: linear-gradient(to right, #588fb6 50%, #335268 50%);
 }
 .nav-button:hover{
     background-position: right;
