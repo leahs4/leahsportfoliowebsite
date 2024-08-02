@@ -1,6 +1,8 @@
 .header{
     background-color: #e1f6fa;
     padding: 30px;
+    position: relative;
+    z-index: 2;
 }
 
 .nav-list{
@@ -34,14 +36,57 @@
     background-position: right;
 }
 
-@media screen and (max-width: 720px){
-    .header{ /* made color diff to distinguish diff width*/
-      background-color: olive;
-      color: #e1f6fa;
-      padding: 30px;
-    }
-    .nav-list{ /* got rid of the buttons*/
-        display: none;
-    }
+.hamburger {
+    display: none;
+    font-size: 1.4rem;
+    cursor: pointer;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    z-index: 3;
 }
 
+@media screen and (max-width: 720px) {
+    .header{
+        background-color: #e1f6fa;
+        position: relative;
+        z-index: 1;
+        border-radius: 5px;
+    }
+    .nav-list{
+        background-color: #e1f6fa;
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        flex-direction: column; 
+        align-items: center;/*horizontally */
+        justify-content: center;/* vertically*/
+        margin: 0;
+        padding: 0;
+        z-index: 2;
+    }
+    .hamburger{
+        display: block;
+        color: #588fb6;
+        position: absolute;
+        top: 20px;
+        right: 20px; 
+        z-index: 3;
+    }
+    .nav-list.open{
+        display: flex;
+    }
+    .nav-list li {
+        margin-bottom: 40px;
+    }
+    .nav-button{
+        padding: 10px 70px;
+    }
+    .nav-list.open{
+        animation-duration: 0.8s;
+        animation-delay: 0.2s;
+    }
+}
