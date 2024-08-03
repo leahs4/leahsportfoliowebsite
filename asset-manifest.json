@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/leahsportfoliowebsite/static/css/main.a53cb951.css",
-    "main.js": "/leahsportfoliowebsite/static/js/main.ddd51447.js",
+    "main.css": "/leahsportfoliowebsite/static/css/main.19b25a68.css",
+    "main.js": "/leahsportfoliowebsite/static/js/main.6b7246de.js",
     "static/media/hawaiisoftserve.jpg": "/leahsportfoliowebsite/static/media/hawaiisoftserve.26db21e2ce6d92393f03.jpg",
     "static/media/logo.png": "/leahsportfoliowebsite/static/media/logo.58e9afd89fe4b81da427.png",
     "index.html": "/leahsportfoliowebsite/index.html",
-    "main.a53cb951.css.map": "/leahsportfoliowebsite/static/css/main.a53cb951.css.map",
-    "main.ddd51447.js.map": "/leahsportfoliowebsite/static/js/main.ddd51447.js.map"
+    "main.19b25a68.css.map": "/leahsportfoliowebsite/static/css/main.19b25a68.css.map",
+    "main.6b7246de.js.map": "/leahsportfoliowebsite/static/js/main.6b7246de.js.map"
   },
   "entrypoints": [
-    "static/css/main.a53cb951.css",
-    "static/js/main.ddd51447.js"
+    "static/css/main.19b25a68.css",
+    "static/js/main.6b7246de.js"
   ]
 }
