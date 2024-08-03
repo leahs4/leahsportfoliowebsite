@@ -9,6 +9,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
 .animate__animated.animate__bounceInLeft{
   --animate-duration: 1.5s;
 }
@@ -56,3 +57,29 @@
   border-radius: 20%;
 }
 
+@media screen and (max-width: 720px){
+  .about-container{
+    display: grid;
+    padding: 20px;
+    background-color: #91c3e9;
+  }
+  .about-image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #91c3e9;
+    transform: translateY(10%);
+  }
+  .about-text-container{
+    flex: 1;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    background-color: #588fb6;
+    border-radius: 50px;
+    color: white;
+    transform: translateY(1px);
+    margin-left: 0%;
+  }
+}

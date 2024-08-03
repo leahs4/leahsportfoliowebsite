@@ -13,7 +13,7 @@ const About = () => {
       <div className="about-container">
         <div className="about-text-container">
           <p class="animate__animated animate__zoomIn">
-            Hi! My name is Leah Sun and I am an upcoming Junior at UCI studying Computer Science and Psychology. I pride myself in being a hard worker, resilient, and most importantly,
+            Hi! My name is Leah Sun and I am a Junior at UCI studying Computer Science and Psychology. I pride myself in being a hard worker, resilient, and most importantly,
             highly organized. I enjoy solving complex problems, whether that be in my code, or in the games I play ᵔ ᵕ ᵔ.
           </p>
           <p class="animate__animated animate__zoomIn">During my free time, I enjoy rock climbing, as well as playing games such as League of Legends & Stardew Valley. I would say I am a huge foodie, I love eating
