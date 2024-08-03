@@ -36,3 +36,10 @@
   color: #b23121;
   transition: color 0.3s ease;
 }
+
+@media screen and (max-width: 720px){
+  .pls, .inq{
+    align-items: center;
+    text-align: center;
+  }
+}
