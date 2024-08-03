@@ -46,7 +46,7 @@
     z-index: 3;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 720px){
     .header{
         background-color: #e1f6fa;
         position: relative;
