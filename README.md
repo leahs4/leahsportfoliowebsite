@@ -1,3 +1,6 @@
+Check out my completed website here:
+https://leahs4.github.io/leahsportfoliowebsite/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
